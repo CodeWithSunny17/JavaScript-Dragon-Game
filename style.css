@@ -20,7 +20,8 @@
 .gameOver{
     text-align: center;
     font-size: 90px;
-    font-family: sans-serif;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(148, 199, 47);
     border-radius: 20px;
     color: white;
@@ -68,7 +69,7 @@
     /* border: 2px solid blueviolet; */
 }
 .obAnimation{
-    animation: obMove infinite ;
+    animation: obMove infinite;
     animation-duration: 6s;
     animation-delay: 1.5s;
 }
@@ -83,18 +84,18 @@
     }
 }
 .jump{
-    animation: jump 1.2s linear;
+    animation: jump 0.8s linear;
 }
 @keyframes jump{
     0%{
         /* transform: translate(0px,0px); */
         bottom: 0px;
     }
-    30%{
+    40%{
         /* transform: translate(50px,-450px); */
         bottom: 400px;
     }
-    60%{
+    70%{
         bottom: 200px;
     }
     100%{
