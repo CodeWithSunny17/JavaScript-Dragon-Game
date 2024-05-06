@@ -20,7 +20,6 @@ document.onkeydown = function name(e) {
         dinox = parseInt(window.getComputedStyle(dino, null).getPropertyValue('left'));
         dino.style.left = dinox - 40 + "px";
     }
-
 }
 
 setInterval(() => {
